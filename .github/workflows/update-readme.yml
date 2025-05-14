@@ -1,0 +1,26 @@
+name: Update README
+
+on:
+  push:
+    branches: [ main ]
+  schedule:
+    - cron: '0 */12 * * *' # 每12小时更新一次
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Update README with date
+      run: |
+        DATE=$(TZ=Asia/Shanghai date "+%Y-%m-%d %H:%M:%S")
+        sed -i "s|<last-updated>.*</last-updated>|<last-updated>$DATE</last-updated>|" README.md
+
+    - name: Commit changes
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git commit -am "📅 update last updated date"
+        git push
