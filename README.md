@@ -2,6 +2,10 @@
 一些记录和输出/Some logging and output
 
 ## 读书笔记Reading Notes
-以notion形式记录和分享，评论权限已打开，欢迎任何人交流。
+以notion形式记录和分享，评论权限已打开，欢迎任何人交流。目前以中文笔记为主，未来希望发展出阅读英文书籍的能力
+
 [2025-5 纳瓦尔宝典](https://www.notion.so/202505-1f3b07927a0d8078a9e2e93db9a7ed46?pvs=4)
 
+![GitHub stars](https://img.shields.io/github/stars/你的用户名/你的项目名?style=social)
+![GitHub forks](https://img.shields.io/github/forks/你的用户名/你的项目名)
+![Visitor Count](https://komarev.com/ghpvc/?username=你的用户名)
