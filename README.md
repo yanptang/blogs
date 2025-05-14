@@ -1,3 +1,7 @@
+![GitHub stars](https://img.shields.io/github/stars/yanptang/blogs?style=social)
+![GitHub forks](https://img.shields.io/github/forks/yanptang/blogs)
+![Visitor Count](https://komarev.com/ghpvc/?username=yanptang)
+
 # Blogs
 一些记录和输出/Some logging and output
 
@@ -6,6 +10,3 @@
 
 [2025-5 纳瓦尔宝典](https://www.notion.so/202505-1f3b07927a0d8078a9e2e93db9a7ed46?pvs=4)
 
-![GitHub stars](https://img.shields.io/github/stars/你的用户名/你的项目名?style=social)
-![GitHub forks](https://img.shields.io/github/forks/你的用户名/你的项目名)
-![Visitor Count](https://komarev.com/ghpvc/?username=你的用户名)
